@@ -66,6 +66,7 @@ model.fit(X_train, y_train, epochs=1)
 
 a=model.history.history.get('accuracy')
 a= a[0] * 100
+a=int(a)
 
 
 # In[ ]:
