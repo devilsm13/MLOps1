@@ -78,14 +78,6 @@ print("Accurcay of the model is:", a)
 # In[ ]:
 
 
-import os
 f = open("accuracy.txt", "w+")
 f.write(str(a))
 f.close()
-
-
-# In[ ]:
-
-
-
-
